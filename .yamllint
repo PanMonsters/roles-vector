@@ -1,7 +1,8 @@
 ---
 # Based on ansible-lint config
 extends: default
-
+exclude:
+  - .tox/
 rules:
   braces:
     max-spaces-inside: 1
