@@ -27,4 +27,4 @@
   ansible.builtin.systemd:
     name: vector
     state: started
-    daemon_reload: true
+    daemon_reload: true    
